@@ -47,11 +47,12 @@ To use gg4clj in your project add it as a dependency to your `project.clj` file:
 ```
 
 You will need to have R installed, and on your path so it's accessible from the command line. If you can run `Rscript`
-from the command line, then you should be good to go. You will also need to make sure that the ggplot2 library is
+from the command line, then you should be good to go. You will also need to make sure that the ggplot2 and svglite libraries are 
 installed in R, which you can do by running the following in R (you only need to do this once):
 
 ```R
 install.packages("ggplot2")
+install.packages("svglite")
 ```
 
 ## Usage
